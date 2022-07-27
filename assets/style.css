@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* REFERENSI */
+/* https://colorlib.com/preview/#coffeeblend */
+
+* {
+    font-family: "BEBAS NEUE";
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    height: 770px;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 250px;
+}
+
+.jumbotron p {
+    color: white;
+    font-family: roboto;
+}
+
+.jumbotron .btn {
+    background-color: #5f5954;
+    font-size: 14px;
+    border: none;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.jumbotron .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    opacity: 50%;
+    height: 770px;
+    z-index: 1;
+}
+
+.jumbotron .inner {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* Container */
+.info {
+    /* background-color: #C49B63; */
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+}
+
+.contai {
+    background-color: #1F2529;
+    size: 100%;
+    background-size: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.info h4 {
+    font-size: 22px;
+}
+
+.info p {
+    font-family: 'Roboto',
+    sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.con {
+    width: 75px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* Menu */
+.menu h2 {
+    text-align: center;
+    color: white;
+}
+
+.menu hr {
+    border-color: #5a9e84;
+    width: 50px;
+    border-width: 3px;
+}
+
+.menu {
+    background-color: #2D3337;
+    margin-top: 0%;
+}
+
+/* About */
+.about h2 {
+    text-align: left;
+}
+
+.about p {
+    color: #BFBFBF;
+    font-family: roboto;
+}
+
+
+.about {
+    background-color: #1F2529;
+}
+
+.about p {
+    color: white;
+}
+
+/* Contact */
+.contact p {
+    font-family: roboto;
+    color: #BFBFBF;
+}
+
+.contact hr {
+    border-color: #5a9e84;
+    width: 1000px;
+    border-width: 1px;
+}
+
+.car1 {
+    height: 500px;
+    
+}
